@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мясо, птица — HealEat</title>
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<!-- header такой же как в index.html, только пути ../../ -->
+<header class="header">
+  <div class="logo">HealEat</div>
+  <nav class="nav">
+    <a href="../../index.html">Главная</a>
+    <a href="../sales.html">Акции</a>
+    <a href="../contacts.html">Контакты</a>
+  </nav>
+  <a href="../basket.html" class="cart-btn" aria-label="Корзина">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+    <span class="cart-text">Корзина <span class="cart-count">0</span></span>
+  </a>
+</header>
+
+<section class="popular" style="padding-top:40px;">
+  <h2 class="section-title">Сладости</h2>
+<div class="products">
+  <div class="product" data-name="Шоколад молочный" data-price="600" data-img="https://images.unsplash.com/photo-1614355038519-9c2e3e2a0d3e">
+      <img src="../../img/sweet/cake.jpg" alt="cakeapple">      
+      <h3>Шоколадный торт</h3>
+      <p class="price">600 ₽</p>
+      <button class="add-to-cart">В корзину</button>
+  </div>
+  <div class="product" data-name="Мармелад" data-price="250" data-img="https://images.unsplash.com/photo-1589114477771-5d37c0e1e7d8">
+    <img src="../../img/sweet/confety.jpg" alt="cakeapple">      
+      <h3>Конфеты</h3>
+      <p class="price">250 ₽</p>
+      <button class="add-to-cart">В корзину</button>
+  </div>
+  <div class="product" data-name="Мармелад" data-price="350" data-img="https://images.unsplash.com/photo-1589114477771-5d37c0e1e7d8">
+    <img src="../../img/sweet/marmelad.jpg" alt="cakeapple">      
+      <h3>Мармелад</h3>
+      <p class="price">350 ₽</p>
+      <button class="add-to-cart">В корзину</button>
+  </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <h3>HealEat</h3>
+    <p>Свежие и полезные продукты с доставкой</p>
+  </div>
+  
+  <div class="footer-links">
+    <h4>Информация</h4>
+    <ul>
+      <li><a href="#">О компании</a></li>
+      <li><a href="#">Доставка и оплата</a></li>
+      <li><a href="#">Возврат и обмен</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </div>
+  
+  <div class="footer-contact">
+    <h4>Свяжитесь с нами</h4>
+    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+    <p><i class="fas fa-envelope"></i> info@healeat.ru</p>
+  </div>
+  
+  <div class="footer-social">
+    <h4>Мы в соцсетях</h4>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-vk"></i></a>
+      <a href="#"><i class="fab fa-telegram"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="../../script.js"></script>
+</body>
+</html>

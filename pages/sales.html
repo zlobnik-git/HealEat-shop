@@ -1,0 +1,84 @@
+<!-- pages/actions.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Акции — HealEat</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<header class="header">
+  <div class="logo">HealEat</div>
+  <nav class="nav">
+    <a href="../index.html">Главная</a>
+    <a href="sales.html">Акции</a>
+    <a href="contacts.html">Контакты</a>
+  </nav>
+  <a href="basket.html" class="cart-btn" aria-label="Корзина">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="9" cy="21" r="1"/>
+      <circle cx="20" cy="21" r="1"/>
+      <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+    </svg>
+    <span class="cart-text">Корзина <span class="cart-count">0</span></span>
+  </a>
+</header>
+
+<section class="actions-section">
+  <h2 class="section-title">Текущие акции</h2>
+  <div class="actions-container">
+    <div class="action-card">
+      <img src="../img/main/fruits.jpg" alt="fruits">
+      <h3>Скидка 20% на все фрукты</h3>
+      <p>С 1 по 15 февраля — свежие фрукты по выгодной цене!</p>
+      <a href="category/fruits.html" class="action-btn">Перейти к товарам</a>
+    </div>
+    <div class="action-card">
+      <img src="../img/2in1.png" alt="2in1">
+      <h3>Купи 2, третья в подарок на молочные продукты</h3>
+      <p>Акция действует на йогурты и сыры до конца месяца.</p>
+      <a href="category/milk.html" class="action-btn">Перейти к товарам</a>
+    </div>
+    <div class="action-card">
+      <img src="../img/main/bakery.jpg" alt="sale">
+      <h3>Скидка 15% на свежую выпечку</h3>
+      <p>Каждый день после 18:00 — выпечка со скидкой!</p>
+      <a href="category/bakery.html" class="action-btn">Перейти к товарам</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <h3>HealEat</h3>
+    <p>Свежие и полезные продукты с доставкой</p>
+  </div>
+  <div class="footer-links">
+    <h4>Информация</h4>
+    <ul>
+      <li><a href="#">О компании</a></li>
+      <li><a href="#">Доставка и оплата</a></li>
+      <li><a href="#">Возврат и обмен</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </div>
+  <div class="footer-contact">
+    <h4>Свяжитесь с нами</h4>
+    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+    <p><i class="fas fa-envelope"></i> info@healeat.ru</p>
+  </div>
+  <div class="footer-social">
+    <h4>Мы в соцсетях</h4>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-vk"></i></a>
+      <a href="#"><i class="fab fa-telegram"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>
