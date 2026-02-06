@@ -1,0 +1,151 @@
+<!-- index.html (updated with minor adjustments if needed, but mostly same as previous) -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealEat - Магазин продуктов</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<header class="header">
+  <div class="logo">HealEat</div>
+  
+  <nav class="nav">
+    <a href="index.html">Главная</a>
+    <a href="pages/sales.html">Акции</a>
+    <a href="pages/contacts.html">Контакты</a>
+  </nav>
+  
+  <a href="pages/basket.html" class="cart-btn" aria-label="Корзина">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="9" cy="21" r="1"/>
+      <circle cx="20" cy="21" r="1"/>
+      <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+    </svg>
+    <span class="cart-text">Корзина <span class="cart-count">0</span></span>
+  </a>
+</header>
+
+<section class="banner">
+  <div class="banner-overlay"></div>
+  <div class="banner-content">
+    <h1>Свежие продукты<br>прямо к вашему столу</h1>
+    <p>Доставка за 60 минут • Лучшие фермерские продукты • Каждый день</p>
+    <button class="main-btn">
+      <span>Начать покупки</span>
+      
+    </button>
+  </div>
+</section>
+
+<h2 class="section-title">Категории товаров</h2>
+<main class="container">
+  <div class="card red"><h2>Мясо, птица</h2><img src="img/main/meat.jpg" alt="meat"></div>
+  <div class="card green"><h2>Готовая еда</h2><img src="img/main/food.jpg" alt="food"></div>
+  <div class="card pink tall"><h2>Фрукты и овощи</h2><img src="img/main/fruits.jpg" alt="fruits"></div>
+  <div class="card orange big"><h2>Сладости</h2><img src="img/main/sweet.jpg" alt="sweets"></div>
+  <div class="card blue"><h2>Молочные продукты</h2><img src="img/main/milk.jpg" alt="milk"></div>
+  <div class="card brown"><h2>Выпечка</h2><img src="img/main/bakery.jpg" alt="bakery"></div>
+</main>
+
+<section class="popular">
+  <h2 class="section-title">Популярные товары</h2>
+  <div class="products">
+    <div class="product" data-name="Яблоки" data-price="120" data-img="https://i0.pickpik.com/photos/270/601/253/apple-fall-juicy-food-preview.jpg">
+      <img src="img/apple.jpg" alt="apple">
+      <h3>Яблоки</h3>
+      <p class="price">120 ₽ / кг</p>
+      <button class="add-to-cart">В корзину</button>
+    </div>
+    <div class="product" data-name="Хлеб" data-price="45" data-img="https://plus.unsplash.com/premium_photo-1675788939191-713c2abf3da6?fm=jpg&q=60&w=800">
+      <img src="https://plus.unsplash.com/premium_photo-1675788939191-713c2abf3da6?fm=jpg&q=60&w=800" alt="Хлеб">
+      <h3>Хлеб</h3>
+      <p class="price">45 ₽</p>
+      <button class="add-to-cart">В корзину</button>
+    </div>
+    <div class="product" data-name="Сыр" data-price="350" data-img="https://img.freepik.com/free-photo/top-view-mix-gourmet-cheese-wooden-cutting-board-with-grapes-ustensils_23-2148376013.jpg?semt=ais_hybrid&w=740&q=80">
+      <img src="https://img.freepik.com/free-photo/top-view-mix-gourmet-cheese-wooden-cutting-board-with-grapes-ustensils_23-2148376013.jpg?semt=ais_hybrid&w=740&q=80" alt="Сыр">
+      <h3>Сыр</h3>
+      <p class="price">350 ₽</p>
+      <button class="add-to-cart">В корзину</button>
+    </div>
+    <div class="product" data-name="Молоко" data-price="80" data-img="https://c8.alamy.com/comp/AXYM45/three-bottles-of-milk-skimmed-semi-skimmed-and-full-cream-AXYM45.jpg">
+      <img src="https://c8.alamy.com/comp/AXYM45/three-bottles-of-milk-skimmed-semi-skimmed-and-full-cream-AXYM45.jpg" alt="Молоко">
+      <h3>Молоко</h3>
+      <p class="price">80 ₽</p>
+      <button class="add-to-cart">В корзину</button>
+    </div>
+  </div>
+</section>
+
+<section class="advantages">
+  <h2 class="section-title">Почему выбирают нас</h2>
+  <div class="adv-container">
+    <div class="adv"><h3>🚚 Быстрая доставка</h3><p>Доставим продукты в течение 60 минут по вашему адресу</p></div>
+    <div class="adv"><h3>🥗 Только свежие продукты</h3><p>Мы работаем напрямую с поставщиками и фермерами</p></div>
+    <div class="adv"><h3>💳 Удобная оплата</h3><p>Оплата картой, наличными или онлайн</p></div>
+    <div class="adv"><h3>📞 Поддержка 24/7</h3><p>Мы всегда готовы помочь нашим клиентам</p></div>
+  </div>
+</section>
+
+<section class="reviews">
+  <h2 class="section-title">Что говорят наши клиенты</h2>
+  <div class="reviews-container">
+    <div class="review">
+      <img src="https://public.r2.headshotpro-cf.com/headshotpro/reviews/6840f69d72fbc8f07bd19cb3-68410524b54dbc1ac61f8919-thumbnail.png" alt="Анна" class="avatar">
+      <div class="stars">★★★★★</div>
+      <p>Отличный магазин! Всё всегда свежее и очень вкусное, особенно фрукты.</p>
+      <span class="author">Анна С. — 12 января 2026</span>
+    </div>
+    <div class="review">
+      <img src="https://img.freepik.com/free-photo/portrait-cheerful-man-smiling-showing-thumb-up-blue-background_93675-134703.jpg?semt=ais_hybrid&w=740&q=80" alt="Дмитрий" class="avatar">
+      <div class="stars">★★★★★</div>
+      <p>Доставка молниеносная, уже третий год заказываю только здесь. Рекомендую!</p>
+      <span class="author">Дмитрий П. — 29 декабря 2025</span>
+    </div>
+    <div class="review">
+      <img src="https://images.insmind.com/market-operations/market/side/eb309ee74e05479a9ebdb04f010bfcaa/1747186313211.jpg?x-oss-process=image/format,webp" alt="Ольга" class="avatar">
+      <div class="stars">★★★★☆</div>
+      <p>Очень удобный сайт, большой выбор и приятные цены. Молоко и сыр — супер!</p>
+      <span class="author">Ольга К. — 5 февраля 2026</span>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <h3>HealEat</h3>
+    <p>Свежие и полезные продукты с доставкой</p>
+  </div>
+  
+  <div class="footer-links">
+    <h4>Информация</h4>
+    <ul>
+      <li><a href="#">О компании</a></li>
+      <li><a href="#">Доставка и оплата</a></li>
+      <li><a href="#">Возврат и обмен</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </div>
+  
+  <div class="footer-contact">
+    <h4>Свяжитесь с нами</h4>
+    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+    <p><i class="fas fa-envelope"></i> info@healeat.ru</p>
+  </div>
+  
+  <div class="footer-social">
+    <h4>Мы в соцсетях</h4>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-vk"></i></a>
+      <a href="#"><i class="fab fa-telegram"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
